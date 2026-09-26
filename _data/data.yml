@@ -1,38 +1,34 @@
-#
-# Be aware that even a small syntax error here can lead to failures in output.
-#
-
 sidebar:
   position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: Jieun Byeon
-  tagline: Best worker
+  tagline: Chemical Engineering Student | Process Optimization & ML
   avatar: pic.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-  # Sidebar links
+  # Sidebar links (leave blank to hide)
   email: zieunbyeon@gmail.com
-  phone: 010 0000 0000
+  phone:
   timezone: Korea Standard Time (UTC+9)
   citizenship: South Korea
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: none
-  xing: none
+  website: https://jieun-bo.streamlit.app/
+  linkedin:
+  xing:
   github: zieunbyeon-star
-  telegram: none
-  gitlab:none
-  bitbucket: none
-  bluesky: none # Specify your full Bluesky handle
-  twitter: none
-  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  telegram:
+  gitlab:
+  bitbucket:
+  bluesky:
+  twitter:
+  stack-overflow:
   codewars:
-  goodreads: # Number-Username, e.g. 123456-alandoe
-  mastodon: # Please include your full Mastodon link here.
-  hackerrank: # Please provide your HackerRank username.
-  leetcode: # Please provide your LeetCode username.
-  pdf: # Add a PDF link here if you want to include a PDF custom version in your resume.
+  goodreads:
+  mastodon:
+  hackerrank:
+  leetcode:
+  pdf:
 
   languages:
     title: Languages
@@ -41,235 +37,170 @@ sidebar:
       level: Native
 
     - idiom: English
-      level: Not bad
+      level: Intermediate (TOEIC 850 & TOEIC Speaking IH)
 
-    - idiom: Deutsch
-      level: Bad
+    - idiom: German
+      level: Beginner (A1)
 
   interests:
     title: Interests
     info:
-    - item: Playing guitar
-      link: 면접때 연주해드립니다
+    - item: Playing guitar (band HERTZ)
+      link:
 
+    - item:
+      link:
 
-    - item: Watching Mukbang
-      link: I recommend Ddeonggae
-
-
-    - item: Kaffee trinken
-      link: I recommand Tuttotonto
+    - item:
+      link:
 
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    Final-year chemical engineering student at Konkuk University who applies
+    machine learning and process simulation to chemical process optimization.
+    I built ChemOpt Studio, a Bayesian Optimization web app that finds optimal
+    operating conditions for DWSIM process simulations, and I am leading a team
+    in the 2026 Chemical Process Design Competition, developing an ML
+    soft-sensor for a cumene reactor.
+
+    I am interested in process engineering and infrastructure roles where
+    data-driven methods can improve yield, efficiency, and safety.
+
+
 education:
   title: Education
   info:
-  - degree: BSc in chemical engineering
-    university: Konkuk university in Seoul
+  - degree: B.S. in Chemical Engineering
+    university: Konkuk University, Seoul
     time: 2022 - 2027
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  
+      GPA: 3.98 / 4.5 (26.09.26)
+
+      - Capstone Design: UCO-based biodiesel plant feasibility study
+      - Capstone Design: DFT theory, applications, and future
+
 
 experiences:
   title: Experiences
   info:
-  - role: Lead Guitar
-    time: 2023 - Present
-    company: Konkuk univ band
+  - role: Undergraduate Research Student
+    time: Mar 2026 - Jun 2026
+    company: Computational Materials Design, Konkuk University
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      Six months of research on AI-driven chemical process optimization.
+
+      - Developed a Bayesian Optimization pipeline (Gaussian Process + Expected Improvement) coupled with DWSIM simulations
+      - Tuned GP hyperparameters with Optuna using an offline-replay oracle built from simulation data
+      - Validated on heat exchanger, flash tank, and ethanol-water distillation cases
+      
+  - role: Undergraduate Research Student
+    time: Sep 2026 - Feb 2027
+    company: Model-based S3 engineering Lab, Konkuk University
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      Research on AI-driven chemical process optimization.
+
+      - 삼성휴먼테크논문대상 초록 제출
+      
+  - role: Lead Guitarist & President
+    time: 2026.01 - 2026.12
+    company: HERTZ, College of Engineering Band, Konkuk University
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Lead the College of Engineering band, organizing rehearsals and concerts.
+
+      - Lead guitarist
+
+  - role: AVEVA simulation contest
+    time: 2026.07 - 2026.08
+    company: The Korean Institute of Chemical Engineers
+    details: |
+      Organizing Cumene process using AVEVA simulator
+      Scheming Cumene process by ETR algorithm
+      Embedding ETR Algorithm in PFD
+      Sensitivity Analysis & Optimization
 
 certifications:
   title: Certifications
   list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
+  - name: ADsP (Advanced Data Analytics Semi-Professional)
+    start: 2026.06.05
     end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+    organization: Korea Data Agency
+    details:
+  - name: SQLD (SQL Developer)
+    start: 2025.09.19
+    end:
+    organization: Korea Data Agency
+    details:
+  - name: Industrial Engineer Hazardous Materials Handling (위험물산업기사)
+    start: # TODO: year
+    end:
+    organization: HRD Korea
+    details:
+  - name: Computer Specialist in Spreadsheet & Database (컴퓨터활용능력)
+    start: 2025.08.26
+    end:
+    organization: Korea Chamber of Commerce and Industry
+    details:
+  - name: Korean History Proficiency Test (한국사능력검정시험)
+    start: 2023.02.24
+    end:
+    organization: National Institute of Korean History
+    details:
+  - name: TOEIC 850
+    start: 2025.01.26
+    end:
+    organization: ETS
+    details:
+  - name: TOEIC Speaking IH (150)
+    start: 2026.07.26
+    end:
+    organization: ETS
+    details:
 
 projects:
   title: Projects
   intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    Selected projects in process optimization, machine learning, and plant design.
   assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+  - title: ChemOpt Studio
+    link: "https://jieun-bo.streamlit.app/"
+    tagline: "Bayesian Optimization web app for chemical process simulation (GP with ARD, EI acquisition, constraint handling). Reached 1.65% error on a flash tank case and exceeded the grid-search optimum on ethanol distillation."
 
-  - title: DevStudio
+  - title: Cumene Reactor ML Soft-Sensor (2026 Chemical Process Design Competition, Team Lead)
     link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+    tagline: "Predicts reactor outlet quality from process data; Extra Trees model exported to ONNX and embedded in AVEVA Process Simulation, validated with time-block extrapolation tests."
 
-  - title: Tempo
+  - title: UCO Biodiesel Plant Feasibility Study (Capstone)
     link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+    tagline: "50,000 kL/yr FAME plant design with a 20-year DCF model (NPV ≈ KRW 22.5B, IRR 15.5%), sensitivity analysis, and SHE assessment (ATEX, SIL)."
 
-  - title: Atom
+  - title: "DFT: Theory, Applications, and Future (Capstone Report)"
     link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+    tagline: "Wrote the future-of-DFT section covering deep-learning functionals and neural network potentials; edited the full report."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
 
 skills:
   title: Skills &amp; Proficiency
 
   toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Javascript & jQuery
-    level: 98%
-
-  - name: Angular
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
+  - name: Python (scikit-learn, Optuna, XGBoost)
     level: 85%
 
-  - name: Sketch & Photoshop
+  - name: DWSIM Process Simulation
+    level: 50%
+
+  - name: Bayesian Optimization & Gaussian Processes
+    level: 80%
+
+  - name: AVEVA Process Simulation
+    level: 60%
+
+  - name: Excel Financial Modeling
+    level: 60%
+
+  - name: SQL
     level: 60%
 
 footer: >
