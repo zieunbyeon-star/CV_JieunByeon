@@ -6,8 +6,8 @@ sidebar:
   # Profile information
   name: Jieun Byeon
   tagline: Chemical Engineering Student | Process Optimization & ML
-  avatar: pic.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
-
+  avatar: pic.jpg
+  
   # Sidebar links (leave blank to hide)
   email: zieunbyeon@gmail.com
   phone:
